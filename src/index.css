@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #2B283A;
+}
+
+/* Navbar */
+
+nav {
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav--title {
+  color: #FFFFFF;
+  margin-left: 7px;
+  font-size: 15px;
+  letter-spacing: -0.075em;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 80px 40px;
+}
+
+hr {
+  border: 1px solid #F5F5F5;
+  margin: 0;
+}
+
+/* Card */
+
+.card--container {
+  display: flex;
+  margin: 20px;
+  margin-left: 0;
+  height: 168px;
+  max-width: 550px;
+}
+
+.card--image {
+  margin-right: 19px;
+  width: 125px;
+  border-radius: 5px;
+  object-fit:cover;
+}
+
+.card--location-container {
+  margin-top: 10px;;
+}
+
+.card--location {
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  margin-right: 12px;
+}
+
+.card--location-dot {
+  color: #F55A5A;
+  margin-right: 4px;
+  height: 11px;
+}
+
+a {
+  font-size: 11px;
+  color: #918E9B;
+}
+
+.card--title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 0px;
+}
+
+.card--dates {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+}
+
+.card--desc {
+  font-size: 11px;
+  line-height: 150%;
+}
